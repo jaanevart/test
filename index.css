@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: black;
+  color: white;
+}
+
+button {
+  display: inline-block;
+  border-radius: 100px;
+  color: white;
+  padding: 8px 16px;
+  font-size: 14px;
+  background: none;
+  border: 2px solid white;
+  font: sans-serif;
+  outline: none;
+  opacity: 0.8;
+}
+button:hover {
+  opacity: 1;
+}
+
+input,
+textarea {
+  background: none;
+  border: none;
+  border-bottom: 2px solid white;
+  border-radius: 2px;
+  outline: none;
+  padding: 6px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 12px;
+  line-height: 1.5em;
+  color: white;
+  text-align: center;
+}
